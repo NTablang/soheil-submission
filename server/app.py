@@ -129,11 +129,16 @@ def add_brightness():
     response = {'image': adjusted_image_base64}
     return response, 200, {'content-type': content_type}
 
+@app.route("/hello_world", methods=["GET"])
+@cross_origin()
+def hello_world():
+    return "Hello World!"
 
-# @app.route("/")
-# @cross_origin()
-# def serve():
-#     return send_from_directory(app.static_folder, "index.html")
+
+@app.route("/")
+@cross_origin()
+def serve():
+    return send_from_directory(app.static_folder, "index.html")
 
 if __name__ == "__main__":
     app.run()
