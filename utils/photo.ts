@@ -86,7 +86,7 @@ export const uploadImage = async (file: any) => {
   }
 };
 
-const serverUrl = process.env.NEXT_PUBLIC_SERVER_URL;
+const serverUrl = "/";
 
 export const addGaussianNoiseBlue = async (
   imageUrl: string,

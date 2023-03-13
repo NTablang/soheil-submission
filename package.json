@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "soheil-frontend": "npm install && npm run build && npm run start",
-    "soheil-server": "cd server && pip3 install -r requirements.txt && export FLASK_APP=app.py && export FLASK_ENV=development && flask run"
+    "soheil-backend": "cd server && pip3 install -r requirements.txt && export FLASK_APP=app.py && export FLASK_ENV=development && flask run"
   },
   "dependencies": {
     "@types/node": "18.14.6",

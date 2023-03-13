@@ -1,38 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
+Hi there! This project took me longer than expected but it was worth the grind!  
 
-First, run the development server:
+## To get started
+1.) Pull the repo  
+2.) On the root directory of the project run the two following commands on seperate terminal:   
+    - ```npm run soheil-backend```   
+    - ```npm run soheil-frontend```   
+3.) see the magic on the browser (you can also see what it should look like over here: [https://www.youtube.com/watch?v=M_MaK7l1BOo&ab_channel=NathanTablang])
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Possible issues  
+- You might run over some python installation issues... Of all the things that I did, simply deplying the app as a web app so you can see it with no hassle took me two days. Eventually I just gave up and decided I'll just hand over the code with a getting started guide. For some reason there's something going on with my dependencies: [cv2 (which is opencv-python when installed), scipy, scikit-image, numpy, and/or Pillow]
+    - Depending on what issue you might have when you run ```npm run soheil-backend``` you might have to run ```npm uninstall -y <dependency_name>``` (type w/o the brackets) then install it back again with ```npm install <dependency_name>``` (type w/o the brackets)
+- I really would like to make sure that this thing works as meshing in python with my javascript is the only thing that's rocky. If ever there's a circumstance that I would need to resolve, feel free to contact me at 301-377-3076. I also live in the UMD campus, brief mins away from IRB.
