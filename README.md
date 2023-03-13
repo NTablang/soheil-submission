@@ -6,8 +6,12 @@ Hi there! This project took me longer than expected but it was worth the grind!
 2.) On the root directory of the project run the two following commands on seperate terminal:   
     - ```npm run soheil-backend```   
     - ```npm run soheil-frontend```   
-3.) see the magic on the browser (you can also see what it should look like over here: [https://www.youtube.com/watch?v=M_MaK7l1BOo&ab_channel=NathanTablang])
+3.) see the magic on the browser (you can also see what it should look like over here: [https://www.youtube.com/watch?v=M_MaK7l1BOo&ab_channel=NathanTablang])  
 
+## More info on code
+- For my frontend code, it'll be in my ```/pages``` folder
+- For my backend code it'll be in my ```/server``` folder
+- I could've made things waay easier for me by using nodejs as my backend that way installing the entire program would bear no issues... however I was thinking that maybe we as a team would use python for our frontend-backend interfaces.  
 
 ## Possible issues  
 - You might run over some python installation issues... Of all the things that I did, simply deplying the app as a web app so you can see it with no hassle took me two days. Eventually I just gave up and decided I'll just hand over the code with a getting started guide. For some reason there's something going on with my dependencies: [cv2 (which is opencv-python when installed), scipy, scikit-image, numpy, and/or Pillow]
