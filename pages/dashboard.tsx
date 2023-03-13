@@ -42,6 +42,15 @@ function Dashboard() {
     multiple: true,
   });
 
+  useEffect(() => {
+
+    fetch ("/hello_world").then((response) => {
+      // console.error(response.body);
+      // print response
+      console.log(response);
+    });
+  })
+
   const uploadImages = async () => {
     for await (const file of filesContent) {
       try {
